@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.great-vibes {
+    font-family: "Great Vibes", cursive;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
