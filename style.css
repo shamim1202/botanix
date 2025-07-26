@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
-.great-vibes {
-    font-family: "Great Vibes", cursive;
+.dancing-script {
+    /* font-family: "Great Vibes", cursive; */
+    font-family: "Dancing Script", cursive;
 }
 .montserrat {
     font-family: "Montserrat", sans-serif;
+}
+
+.hover\:spin-infinite:hover {
+    animation: spinInfinite 3s linear infinite;
+}
+
+@keyframes spinInfinite {
+    100% {
+        transform: rotate(360deg);
+    }
 }
